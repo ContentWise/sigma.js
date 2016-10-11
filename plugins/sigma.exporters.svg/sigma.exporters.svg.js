@@ -221,4 +221,4 @@
 
     return output;
   };
-}).call(this);
+}).call(window);

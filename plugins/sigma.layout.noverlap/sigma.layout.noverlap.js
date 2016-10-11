@@ -405,4 +405,4 @@
     return !!_instance[sigInst.id] && _instance[sigInst.id].running;
   };
 
-}).call(this);
+}).call(window);

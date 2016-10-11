@@ -501,4 +501,4 @@
     return filter;
   };
 
-}).call(this);
+}).call(window);

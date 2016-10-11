@@ -85,4 +85,4 @@
     };
     xhr.send();
   };
-}).call(this);
+}).call(window);

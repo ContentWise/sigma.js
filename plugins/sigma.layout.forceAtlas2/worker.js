@@ -1110,7 +1110,7 @@
   // Exporting
   function getWorkerFn() {
     var fnString = crush ? crush(Worker.toString()) : Worker.toString();
-    return ';(' + fnString + ').call(this);';
+    return ';(' + fnString + ').call(window);';
   }
 
   if (inWebWorker) {
@@ -1126,4 +1126,4 @@
 
     sigma.prototype.getForceAtlas2Worker = getWorkerFn;
   }
-}).call(this);
+}).call(window);

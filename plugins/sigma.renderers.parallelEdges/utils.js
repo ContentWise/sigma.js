@@ -47,4 +47,4 @@
       y2: y + (size + a) * 7
     };
   };
-}).call(this);
+}).call(window);
