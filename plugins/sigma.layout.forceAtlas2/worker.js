@@ -1110,7 +1110,7 @@
   // Exporting
   function getWorkerFn() {
     var fnString = crush ? crush(Worker.toString()) : Worker.toString();
-    return ';(' + fnString + ').call(window);';
+    return ';(' + fnString + ').call(this);';
   }
 
   if (inWebWorker) {
