@@ -1721,7 +1721,7 @@
     exports.conrad = conrad;
   }
   global.conrad = conrad;
-})(this);
+})(window);
 
 // Hardcoded export for the node.js version:
 var sigma = this.sigma,
@@ -2843,7 +2843,7 @@ if (typeof exports !== 'undefined') {
 
       return fBound;
     };
-})(this);
+})(window);
 
 ;(function(undefined) {
   'use strict';
@@ -8457,7 +8457,7 @@ if (typeof exports !== 'undefined') {
   sigma.renderers.def = webgl ?
     sigma.renderers.webgl :
     sigma.renderers.canvas;
-})(this);
+})(window);
 
 ;(function() {
   'use strict';
