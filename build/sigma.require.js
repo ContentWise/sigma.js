@@ -1724,8 +1724,8 @@
 })(window);
 
 // Hardcoded export for the node.js version:
-var sigma = this.sigma,
-    conrad = this.conrad;
+var sigma = window.sigma,
+    conrad = window.conrad;
 
 sigma.conrad = conrad;
 
