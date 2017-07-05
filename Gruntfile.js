@@ -41,6 +41,8 @@ module.exports = function(grunt) {
     'src/renderers/canvas/sigma.canvas.edges.def.js',
     'src/renderers/canvas/sigma.canvas.edges.dotCurve.js',
     'src/renderers/canvas/sigma.canvas.edges.arrow.js',
+    'src/renderers/canvas/sigma.canvas.edges.curve.js',
+    'src/renderers/canvas/sigma.canvas.edges.curvedArrow.js',
     'src/renderers/canvas/sigma.canvas.edges.dotCurvedArrow.js',
     'src/renderers/canvas/sigma.canvas.edgehovers.def.js',
     'src/renderers/canvas/sigma.canvas.edgehovers.curve.js',
