@@ -12218,6 +12218,14 @@ if (typeof exports !== 'undefined') {
           }
         }
       }
+
+      if(Object.keys(hoveredEdges).length) {
+        Object.keys(hoveredEdges).forEach(function(k) {
+          if(!self.graph.edges(k) || self.graph.edges(k).hidden) {
+            delete hoveredEdges[k];
+          }
+        })
+      }
     }
   };
 }).call(window);
